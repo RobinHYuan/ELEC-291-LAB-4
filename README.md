@@ -2,7 +2,7 @@
 
 ------------
 ### Introduction:
-In this lab, we will be using the EFM8 board and LM355 temperature sensor to detect current temperature. The ADC converter on EFM8 is used to read the output voltage of the LM355.  We will use the values read from EFM to plot a temperature strip-chart using python.
+In this lab, we will be using the EFM8 board and LM355 temperature sensor to detect current temperature. The ADC converter on EFM8 is used to read the output voltage of the LM355.  We will use the values read from EFM8 via serial port to plot a temperature strip-chart using python.
 
 ------------
 ### Team Member:
