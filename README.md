@@ -16,7 +16,7 @@ PuTTY:https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 ------------
 
-### Skeleton:
+### System Structure:
 <img src="https://user-images.githubusercontent.com/68177491/109437770-77d24600-79db-11eb-9114-e5bf87469c7f.png" width="638" height="222"/>
 
 ------------
