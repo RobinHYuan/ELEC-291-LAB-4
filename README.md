@@ -31,7 +31,7 @@ Robin Yuan
 - All basic reqiurements are met
 
 ------------
-### Aplications Used:
+### Software Used:
 WinPython(64-bit for Windows):https://sourceforge.net/projects/winpython/ \
 PuTTY:https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html 
 
