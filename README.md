@@ -28,3 +28,5 @@ WinPython(64-bit for Windows):https://sourceforge.net/projects/winpython/ \
 PuTTY:https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html 
 
 ------------
+This lab is sponsored by Matou Sakura
+<img src="https://user-images.githubusercontent.com/68177491/109440948-b0c4e780-79e8-11eb-90b4-2a1c33936a7c.jpg" width="512" height="765"/>
