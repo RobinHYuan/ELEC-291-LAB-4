@@ -14,6 +14,11 @@ Robin Yuan
 <img src="https://user-images.githubusercontent.com/68177491/109437826-eca58000-79db-11eb-8b04-fe55a8f5faf0.png" width="641" height="194"/>
 
 ------------
+### Breadboard:
+
+<img src="https://user-images.githubusercontent.com/68177491/109447393-677c9400-79f8-11eb-8187-52f0cb8c769e.jpg" width="430" height="303"/>
+
+------------
 ### Update History:
 
 **2021-02-28; 17:09:00; Sunday**
