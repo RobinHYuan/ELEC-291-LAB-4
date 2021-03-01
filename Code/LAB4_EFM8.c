@@ -28,7 +28,7 @@ void main (void)
 	{
 		voltage = Volts_at_Pin(QFP32_MUX_P2_2);
 		tempCelsius = 100.0*(voltage-2.73);
-		printf ("Temperature=%.3f  \r\n", tempCelsius);
+		printf ("%.3f\n", tempCelsius);
 		waitms(500);
 	 }  
 	 
