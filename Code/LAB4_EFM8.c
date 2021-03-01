@@ -11,17 +11,12 @@
 #define TRUE 1
 void main (void)
 {
+    float voltage=0, tempCelsius=0;
 	
-	float voltage=0, tempCelsius=0;
-
     waitms(500); // Give PuTTy a chance to start before sending
-	printf("\x1b[2J"); // Clear screen using ANSI escape sequence.
-	printf ("ADC test program\n"
-	        "File: %s\n"
-	        "Compiled: %s, %s\n\n",
-	        __FILE__, __DATE__, __TIME__);
-	
-	InitPinADC(2, 2); // Configure P2.2 as analog input
+    printf("\x1b[2J"); // Clear screen using ANSI escape sequence.
+
+    InitPinADC(2, 2); // Configure P2.2 as analog input
     InitADC();
 
 	while(TRUE)
