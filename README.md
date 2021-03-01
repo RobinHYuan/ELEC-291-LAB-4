@@ -19,6 +19,17 @@ Robin Yuan
 <img src="https://user-images.githubusercontent.com/68177491/109447393-677c9400-79f8-11eb-8187-52f0cb8c769e.jpg" width="430" height="303"/>
 
 ------------
+### PIN Assignment:
+
+#define LCD_RS P3_3\
+#define LCD_RW P3_2\
+#define LCD_E  P3_1\
+#define LCD_D4 P1_4\
+#define LCD_D5 P1_5\
+#define LCD_D6 P1_6\
+#define LCD_D7 P1_7
+
+------------
 ### Update History:
 
 **2021-02-28; 17:09:00; Sunday**
@@ -29,6 +40,10 @@ Robin Yuan
 
 **2021-02-28; 19:10:00; Sunday**
 - All basic reqiurements are met
+
+**2021-03-01; 11:49:00; Monday**
+- The library, lab4.h now includes the LCD driving functions
+- LCD can now display floating points by using sprintf
 
 ------------
 ### Software Used:
