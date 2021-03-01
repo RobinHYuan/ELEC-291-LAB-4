@@ -1,4 +1,4 @@
-# ELEC291 LAB4
+# ELEC291 LAB 4
 
 ------------
 ### Introduction:
