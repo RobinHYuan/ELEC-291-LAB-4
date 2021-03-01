@@ -27,6 +27,9 @@ Robin Yuan
 - Pin 2.2 is used for ADC purposes
 - PC can display a temperature reading string from EFM8 on PuTTY 
 
+**2021-02-28; 19:10:00; Sunday**
+- All basic reqiurements are met
+
 ------------
 ### Aplications Used:
 WinPython(64-bit for Windows):https://sourceforge.net/projects/winpython/ \
