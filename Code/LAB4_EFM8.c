@@ -9,22 +9,34 @@
 #include <EFM8LB1.h>
 #include <lab4.h>
 #define TRUE 1
+
+
 void main (void)
 {
-    float voltage=0, tempCelsius=0;
+	
+	float voltage=0, tempCelsius=0;
+	char string[16]="Temperature:";
 	
     waitms(500); // Give PuTTy a chance to start before sending
-    printf("\x1b[2J"); // Clear screen using ANSI escape sequence.
-
-    InitPinADC(2, 2); // Configure P2.2 as analog input
+	printf("\x1b[2J"); // Clear screen using ANSI escape sequence.
+	InitPinADC(1, 1); // Configure P2.2 as analog input
+	
     InitADC();
-
+	LCD_4BIT();
+	
+	LCDprint(string, 1, 1);
+	
 	while(TRUE)
 	{
 		voltage = Volts_at_Pin(QFP32_MUX_P2_2);
 		tempCelsius = 100.0*(voltage-2.73);
+		
 		printf ("%.3f\n", tempCelsius);
+		
+		sprintf(string, "%.3f ", tempCelsius);
+		LCDprint(string, 2, 1);		
 		waitms(500);
+		
 	 }  
 	 
 }	
