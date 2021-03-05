@@ -9,7 +9,10 @@
 #define LCD_D5 P1_5
 #define LCD_D6 P1_6
 #define LCD_D7 P1_7
+#define DHT11  P1_3
 #define CHARS_PER_LINE 16
+
+#define TRUE 1
 
 char _c51_external_startup (void)
 {
@@ -275,4 +278,66 @@ int getsn (char * buff, int len)
 	}
 	buff[j]=0;
 	return len;
+}
+
+
+
+void Initiate_DHT11()			
+{
+	DHT11 = 1;		
+	waitms(20);	
+	DHT11 = 0;		
+	waitms(20);	
+	DHT11 = 1;		
+	
+	return;
+}
+
+void Verify()
+{
+	while(DHT11==1);
+	while(DHT11==0);
+	while(DHT11==1);
+
+	return;
+}
+int Receive_data()		
+{
+	int dat=0,i;	
+	for (i=0; i<8; i++)
+	{
+		while(DHT11==0);
+		Timer3us(30);
+
+		if(DHT11 == 1)	
+			dat = (dat<<1)|(0x01);
+		else	
+			dat = (dat<<1);
+		while(DHT11==1);
+	}
+	return dat;
+}
+
+
+void DHT11_Read(float* Temp, float* Hum)
+{
+	int Hum_High,Hum_Low,Temp_High,Temp_Low; 
+
+	Initiate_DHT11();
+	Verify();
+
+	Hum_High=Receive_data();	/* store first eight bit in I_RH */
+	Hum_Low=Receive_data();	/* store next eight bit in D_RH */
+	Temp_High=Receive_data();	/* store next eight bit in I_Temp */
+	Temp_Low=Receive_data();	/* store next eight bit in D_Temp */
+	
+	*Temp=Temp_High+Temp_Low/10.0;
+	*Hum=Hum_High+Hum_Low/10.0;
+	
+	return;
+}
+
+float LM355_Read()
+{	float voltage = Volts_at_Pin(QFP32_MUX_P2_2);
+	return (100.0*(voltage-2.73));
 }
