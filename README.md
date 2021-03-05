@@ -27,8 +27,9 @@ Robin Yuan
 #define LCD_D4 P1_4\
 #define LCD_D5 P1_5\
 #define LCD_D6 P1_6\
-#define LCD_D7 P1_7
+#define LCD_D7 P1_7\
 #define DHT11  P1_3
+
 ------------
 ### Update History:
 
