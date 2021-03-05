@@ -28,7 +28,7 @@ Robin Yuan
 #define LCD_D5 P1_5\
 #define LCD_D6 P1_6\
 #define LCD_D7 P1_7
-
+#define DHT11  P1_3
 ------------
 ### Update History:
 
@@ -44,6 +44,10 @@ Robin Yuan
 **2021-03-01; 11:49:00; Monday**
 - The library, lab4.h now includes the LCD driving functions
 - LCD can now display floating points by using sprintf
+
+**2021-03-04; 21:10:10; Thursday**
+- lab4.h is further improved, supporting DHT11 sensor
+- Humidity measuring feature added
 
 ------------
 ### Software Used:
