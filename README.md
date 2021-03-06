@@ -10,6 +10,20 @@ Robin Yuan
   
 ------------
 
+### Demo Video:
+https://drive.google.com/file/d/1gk7U2kvy9rbyBLFlvI1DY_XSfbt85O5o/view?usp=sharing
+ 
+### Extra Features:
+
+
+1. Portable Design; the system does not require any USB connection to operate. Instead, we can use a 9v battery to power the system.
+2. Calibratable LM355 sesnor is used to ensure accurate temperature readings
+3. DHT11 senor is used to provide humidity and temperature readings
+4. LCD will refresh the readings every minute 
+5. Auto-backlighting circuit is used so that users can read the temperature and humidity with ease in a dark environment
+6. Improved algorithm  that combines both sensors' readings provides better results
+
+------------
 ### System Structure:
 <img src="https://user-images.githubusercontent.com/68177491/110192545-91143180-7de3-11eb-9d31-b69dc0b5d9f0.jpg" width="641" height="480"/>
 
