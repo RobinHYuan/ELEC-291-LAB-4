@@ -11,7 +11,7 @@ Robin Yuan
 ------------
 
 ### System Structure:
-<img src="(https://user-images.githubusercontent.com/68177491/110192545-91143180-7de3-11eb-9d31-b69dc0b5d9f0.jpg" width="641" height="480"/>
+<img src="https://user-images.githubusercontent.com/68177491/110192545-91143180-7de3-11eb-9d31-b69dc0b5d9f0.jpg" width="641" height="480"/>
 
 
 ------------
