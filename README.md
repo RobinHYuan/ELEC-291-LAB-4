@@ -25,7 +25,7 @@ https://drive.google.com/file/d/1gk7U2kvy9rbyBLFlvI1DY_XSfbt85O5o/view?usp=shari
 
 ------------
 ### System Structure:
-<img src="https://user-images.githubusercontent.com/68177491/110192545-91143180-7de3-11eb-9d31-b69dc0b5d9f0.jpg" width="641" height="480"/>
+<img src="(https://user-images.githubusercontent.com/68177491/110194500-5e6f3680-7ded-11eb-963b-8d8a944405d3.jpg" width="641" height="480"/>
 
 
 ------------
