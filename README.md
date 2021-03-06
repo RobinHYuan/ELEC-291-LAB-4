@@ -11,7 +11,7 @@ Robin Yuan
 ------------
 
 ### System Structure:
-<img src="https://user-images.githubusercontent.com/68177491/109437826-eca58000-79db-11eb-8b04-fe55a8f5faf0.png" width="641" height="194"/>
+<img src="(https://user-images.githubusercontent.com/68177491/110192350-552c9c80-7de2-11eb-8bb5-a2572f63cc46.jpg" width="641" height="480"/>
 
 ------------
 ### Breadboard:
