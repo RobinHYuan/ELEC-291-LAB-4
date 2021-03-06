@@ -5,8 +5,8 @@ In this lab, we will be using the EFM8 board and LM355 temperature sensor to det
 
 
 ### Team Member:
-Jerry Shao\
-Robin Yuan
+Jerry Shao, 84982321 \
+Robin Yuan, 88011879
   
 ------------
 
