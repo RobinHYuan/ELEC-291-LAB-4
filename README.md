@@ -17,7 +17,7 @@ Robin Yuan
 ------------
 ### Breadboard:
 
-<img src="https://user-images.githubusercontent.com/68177491/109447393-677c9400-79f8-11eb-8187-52f0cb8c769e.jpg" width="430" height="303"/>
+<img src="https://user-images.githubusercontent.com/68177491/110192726-c1100480-7de4-11eb-88c1-addb44591ac0.jpg" width="496" height="663"/>
 
 ------------
 ### PIN Assignment:
