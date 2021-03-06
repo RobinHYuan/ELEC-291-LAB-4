@@ -43,8 +43,8 @@ https://drive.google.com/file/d/1gk7U2kvy9rbyBLFlvI1DY_XSfbt85O5o/view?usp=shari
 #define LCD_D5 P1_5\
 #define LCD_D6 P1_6\
 #define LCD_D7 P1_7\
-#define DHT11  P1_3
-
+#define DHT11  P1_3\
+#define LM355  P2_2
 ------------
 ### Update History:
 
